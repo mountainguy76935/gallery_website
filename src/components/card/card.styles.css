@@ -1,0 +1,22 @@
+.card {
+    margin: center;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, #ff7a3d, white);
+    border: 7px solid white;
+    border-radius: 5px;
+    padding: 45px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+}
+
+.images{
+    border-radius: 50%;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
