@@ -1,5 +1,5 @@
-.card {
-    height: 450px;
+.cardback {
+    height: 450 px;
     margin: center;
     display: flex;
     flex-direction: column;
@@ -14,10 +14,6 @@
     transition: transform 0.25s ease-out;
 }
 
-.images{
-    border-radius: 50%;
-}
-
-.card:hover {
+.cardback:hover {
     transform: scale(1.05);
 }

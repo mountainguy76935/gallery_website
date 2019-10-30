@@ -19,7 +19,7 @@ class App extends React.Component {
           name: "forest",
           id: "img2",
           src: "https://ichef.bbci.co.uk/news/320/cpsprodpb/B7B0/production/_101542074_gettyimages-956391468.jpg",
-          tagline: "makes me think of little magical elf mother fuckers"
+          tagline: "makes me think of little magical elf dudes"
         },
         {
           name: "downtown",
