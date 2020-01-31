@@ -1,5 +1,5 @@
 .cardback {
-    height: 450 px;
+    height: 450px;
     margin: center;
     display: flex;
     flex-direction: column;
@@ -12,8 +12,19 @@
     backface-visibility: hidden;
     transform: translateZ(0);
     transition: transform 0.25s ease-out;
+    background-size: cover;
 }
 
 .cardback:hover {
     transform: scale(1.05);
+}
+
+.link{
+    font-size: 15px;
+    color: #211874;
+};
+
+.link:hover{
+    font-size: 15px;
+    color: #165f28;
 }

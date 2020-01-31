@@ -1,0 +1,12 @@
+.full {
+    background-image: fill;
+    border-radius: 50px;
+};
+
+.flippy-front {
+    padding: 0em;
+};
+
+.flippy-back {
+    padding: 0em;
+};

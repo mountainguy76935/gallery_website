@@ -1,8 +1,14 @@
 .card-list {
-    width: 85vw;
-    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 30px;
+    background-size: cover;
+    position: relative;
   }
   
+  @media screen and (max-width: 768px){
+    .card-list {display: block; 
+                padding: 230px;
+                padding-left: 80px;
+                position: absolute}
+  };

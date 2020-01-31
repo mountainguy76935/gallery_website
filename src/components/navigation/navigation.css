@@ -1,0 +1,19 @@
+.navigate{
+    display: inline-block;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.home{
+    display: inline-block;
+    justify-items: left
+};
+
+.about{
+    display: inline-block;
+    justify-content: center;
+}
+
+.about{
+    display: inline-block;
+    justify-content: right;
+}
