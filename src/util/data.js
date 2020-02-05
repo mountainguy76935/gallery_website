@@ -37,10 +37,11 @@ const data = [
       link: 'https://github.com/mountainguy76935'
     },
     {
-      name: "mountains",
+      name: "Tip out calculator (w/ express, mongodb, and heroku!)",
       id: "img6",
-      src: "https://www.worldatlas.com/r/w728-h425-c728x425/upload/66/14/d8/kangchenjunga.jpg",
-      tagline: "shred that gnar pow, boof hound!"
+      src: "https://bachasoftware.com/wp-content/uploads/2019/11/express.js-logo-2-1024x568.jpg",
+      tagline: "Click here to check out my tip out calculator, implementing routing, mongoDB, express, and heroku.",
+      link: "https://whispering-dawn-27805.herokuapp.com/home"
     },
     {
       name: "whales",
