@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7e5570b1d3c3487a0ed6a027ebed0345",
+    "revision": "b6b82fd2d540ad3b4f122ee167c0dfad",
     "url": "/gallery_website/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gallery_website/static/css/2.c0851dc3.chunk.css"
   },
   {
-    "revision": "a9157e73a15eacd0e9c5",
-    "url": "/gallery_website/static/css/main.ccdffa78.chunk.css"
+    "revision": "b5367e8d5c2d54a35e26",
+    "url": "/gallery_website/static/css/main.6f5d8e28.chunk.css"
   },
   {
     "revision": "9b6529a41091e123b1d6",
     "url": "/gallery_website/static/js/2.bb08a07b.chunk.js"
   },
   {
-    "revision": "a9157e73a15eacd0e9c5",
-    "url": "/gallery_website/static/js/main.95891344.chunk.js"
+    "revision": "b5367e8d5c2d54a35e26",
+    "url": "/gallery_website/static/js/main.c3870d8e.chunk.js"
   },
   {
     "revision": "eb28f76e3a93d1b840e8",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "97f2c6d0003d54784ee3da21e15661db",
     "url": "/gallery_website/static/media/kayak.97f2c6d0.JPG"
+  },
+  {
+    "revision": "203aa84f70a1b725557ef3f5d3e3dc29",
+    "url": "/gallery_website/static/media/leaves.203aa84f.png"
   },
   {
     "revision": "5426922589e194ab67ea6012fbb25c7e",
