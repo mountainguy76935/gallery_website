@@ -1,6 +1,5 @@
 import React from 'react';
 import { Randomize } from './components/randomize/randomize.component';
-import { SearchBox } from './components/search-box/search-box.component';
 import Data from './util/data';
 import './App.css';
 
@@ -24,15 +23,12 @@ class App extends React.Component {
       );
     return (
     <div className='App'>
+      <div className="solo">
       <h1 className = "title">Welcome To My Website</h1>
             <br />
-            <p className = "title" style={{color: 'black', 'font-size' : '30px'}}>Thanks for visiting! Scroll down to see awesome pictures and some links to 
+            <p style={{color: 'black', fontSize : '30px'}}>Thanks for visiting! Scroll down to see awesome pictures and some links to 
             my projects.</p>
-            <br />
-      <SearchBox 
-        placeholder = 'search pictures'
-        handleChange = {this.handleChange}
-      />
+      </div>
       <Randomize className = "cardstyle" pictures = {filteredPictures} />
     </div>
   );

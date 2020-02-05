@@ -14,7 +14,7 @@ render() {
     flipDirection="horizontal" // horizontal or vertical
     ref={(r) => this.flippy = r}
     style={{
-      'padding-bottom': '50px'
+      paddingBottom: '50px'
     }}
   >
     <FrontSide 
@@ -22,15 +22,17 @@ render() {
         padding: '0em'
       }}
     >
-        <Card key = {this.props.key} picture={this.props.picture}/>
+      <Card picture={this.props.picture}/>
+    
     </FrontSide>
     <BackSide 
       style={{
         padding: '0em'
       }}
     >
-      <CardBack key = {this.props.key} picture={this.props.picture}/>
+      <CardBack picture={this.props.picture}/>
     </BackSide>
+    <p value={Object.keys(this.props)}></p>
   </Flippy>
   )
 }
