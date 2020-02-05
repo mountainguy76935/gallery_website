@@ -5,10 +5,3 @@
     background-size: cover;
     position: relative;
   }
-  
-  @media screen and (max-width: 768px){
-    .card-list {display: block; 
-                padding: 230px;
-                padding-left: 80px;
-                position: absolute}
-  };

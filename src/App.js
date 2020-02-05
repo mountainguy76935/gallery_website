@@ -1,7 +1,6 @@
 import React from 'react';
 import { Randomize } from './components/randomize/randomize.component';
 import { SearchBox } from './components/search-box/search-box.component';
-import { Navigation } from './components/navigation/navigation.component';
 import Data from './util/data';
 import './App.css';
 
