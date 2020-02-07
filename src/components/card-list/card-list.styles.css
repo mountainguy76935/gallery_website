@@ -4,4 +4,10 @@
     grid-gap: 30px;
     background-size: cover;
     position: relative;
-  }
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+  };
+
+  

@@ -3,7 +3,7 @@
     margin: center;
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(to bottom, #ff7a3d, white);
+    background-image: linear-gradient(to bottom, #3c7fa5, white);
     border-radius: 5px;
     padding: 45px;
     cursor: pointer;
@@ -26,4 +26,16 @@
 .link:hover{
     font-size: 15px;
     color: #165f28;
+}
+
+[href] {
+    color: black;
+    text-decoration: none;
+    transform: cubic-bezier(.17,.67,.83,.67);
+    transition: transform 3s ease-out;
+    font-size: 40px;
+}
+
+[href]:hover{
+    transform: scale(1.2);
 }

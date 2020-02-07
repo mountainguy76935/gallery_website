@@ -1,7 +1,8 @@
 import logo from '../pictures/IMG_0024.JPG';
 import kayak from '../pictures/kayak.JPG';
 import tips from "../pictures/tips.png";
-import github from "../pictures/github.png"
+import github from "../pictures/github.png";
+import codepen from '../pictures/codepen.jpg';
 
 const data = [
     {
@@ -37,7 +38,7 @@ const data = [
       link: 'https://github.com/mountainguy76935'
     },
     {
-      name: "Tip out calculator (w/ express, mongodb, and heroku!)",
+      name: "Tip out calculator (part 2)",
       id: "img6",
       src: "https://bachasoftware.com/wp-content/uploads/2019/11/express.js-logo-2-1024x568.jpg",
       tagline: "Click here to check out my tip out calculator, implementing routing, mongoDB, express, and heroku.",
@@ -50,10 +51,11 @@ const data = [
       tagline: "Our best friends on the planet, and greatest singers"
     },
     {
-      name: "snowy town",
+      name: "code pen",
       id: "img8",
-      src: "https://previews.123rf.com/images/zssp/zssp1802/zssp180200040/96198046-a-small-snowy-town.jpg",
-      tagline: "Cozy and makes you wanta get y'all some hot cocoa!!"
+      src: codepen,
+      tagline: "A couple small programs to showcase some html/css/javascript",
+      link: 'https://codepen.io/mountainguy76935'
     }
   ];
 

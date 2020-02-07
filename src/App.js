@@ -1,35 +1,19 @@
 import React from 'react';
-import { Randomize } from './components/randomize/randomize.component';
-import Data from './util/data';
+import { MainPage } from './pages/main-page.component';
+import { Navigation } from './components/navigation/navigation.component';
+import { About } from './pages/about-page.component';
+import { Contact } from './pages/contact-page.component';
+import { Route } from 'react-router-dom'
 import './App.css';
 
 class App extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      pictures: Data,
-      searchField: "",
-    }
-  }
-  
-  handleChange = (e) => {
-    this.setState({ searchField: e.target.value })
-  }
- 
   render() {
-    const { pictures, searchField } = this.state; 
-    const filteredPictures = pictures.filter(picture => 
-        picture.name.toLowerCase().includes(searchField.toLowerCase())
-      );
     return (
     <div className='App'>
-      <div className="solo">
-      <h1 className = "title">Welcome To My Website</h1>
-            <br />
-            <p style={{color: 'black', fontSize : '30px'}}>Thanks for visiting! Scroll down to see awesome pictures and some links to 
-            my projects.</p>
-      </div>
-      <Randomize className = "cardstyle" pictures = {filteredPictures} />
+      <Navigation/>
+      <Route exact path='/' component = { MainPage } />
+      <Route exact path='/about' component = { About } />
+      <Route exact path='/contact' component = { Contact } />
     </div>
   );
   }
