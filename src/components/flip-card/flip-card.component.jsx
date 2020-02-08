@@ -14,7 +14,8 @@ render() {
     flipDirection="horizontal"
     ref={(r) => this.flippy = r}
     style={{
-      paddingBottom: '50px'
+      paddingBottom: '50px',
+      height: '0%'
     }}
   >
     <FrontSide 
