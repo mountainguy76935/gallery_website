@@ -9,9 +9,9 @@ export class FlipCard extends React.Component{
 render() {
   return (
   <Flippy 
-    className = "full"// default false
-    flipOnClick={true} // default false
-    flipDirection="horizontal" // horizontal or vertical
+    className = "full"
+    flipOnClick={true}
+    flipDirection="horizontal"
     ref={(r) => this.flippy = r}
     style={{
       paddingBottom: '50px'

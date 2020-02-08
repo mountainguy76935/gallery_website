@@ -1,6 +1,8 @@
 .box{
     width: 100%;
     height: 350px;
+    font-size: 15px;
     border: solid rgb(14, 56, 90);
     font-family: 'Pacifico', cursive;
+    overflow: hidden;
 }
