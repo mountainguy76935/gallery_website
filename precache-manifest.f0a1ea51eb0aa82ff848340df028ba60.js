@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b576de390333de1d77c4bb847964fe2d",
+    "revision": "79396343b84e917bba1f7fa032e98308",
     "url": "/gallery_website/index.html"
   },
   {
-    "revision": "7463c190718998b94e7c",
+    "revision": "086bb026f457d703e854",
     "url": "/gallery_website/static/css/2.c0851dc3.chunk.css"
   },
   {
-    "revision": "f75d58d4536096eb65f7",
-    "url": "/gallery_website/static/css/main.ed070ee6.chunk.css"
+    "revision": "b8520fb39f90efabd5fa",
+    "url": "/gallery_website/static/css/main.860497c5.chunk.css"
   },
   {
-    "revision": "7463c190718998b94e7c",
-    "url": "/gallery_website/static/js/2.fd14dc78.chunk.js"
+    "revision": "086bb026f457d703e854",
+    "url": "/gallery_website/static/js/2.5af3a65a.chunk.js"
   },
   {
-    "revision": "f75d58d4536096eb65f7",
-    "url": "/gallery_website/static/js/main.a47dcd0d.chunk.js"
+    "revision": "b8520fb39f90efabd5fa",
+    "url": "/gallery_website/static/js/main.c1330622.chunk.js"
   },
   {
     "revision": "eb28f76e3a93d1b840e8",
@@ -40,7 +40,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gallery_website/static/media/leaves.203aa84f.png"
   },
   {
+    "revision": "ed4de6d7628bd631b293c2fb80da1d71",
+    "url": "/gallery_website/static/media/lexi.ed4de6d7.JPG"
+  },
+  {
     "revision": "5426922589e194ab67ea6012fbb25c7e",
     "url": "/gallery_website/static/media/tips.54269225.png"
+  },
+  {
+    "revision": "0cdb726907d83dc53647e4b501173f45",
+    "url": "/gallery_website/static/media/tree.0cdb7269.JPG"
   }
 ]);

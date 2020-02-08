@@ -1,29 +1,31 @@
 {
   "files": {
-    "main.css": "/gallery_website/static/css/main.ed070ee6.chunk.css",
-    "main.js": "/gallery_website/static/js/main.a47dcd0d.chunk.js",
-    "main.js.map": "/gallery_website/static/js/main.a47dcd0d.chunk.js.map",
+    "main.css": "/gallery_website/static/css/main.860497c5.chunk.css",
+    "main.js": "/gallery_website/static/js/main.c1330622.chunk.js",
+    "main.js.map": "/gallery_website/static/js/main.c1330622.chunk.js.map",
     "runtime-main.js": "/gallery_website/static/js/runtime-main.d393a503.js",
     "runtime-main.js.map": "/gallery_website/static/js/runtime-main.d393a503.js.map",
     "static/css/2.c0851dc3.chunk.css": "/gallery_website/static/css/2.c0851dc3.chunk.css",
-    "static/js/2.fd14dc78.chunk.js": "/gallery_website/static/js/2.fd14dc78.chunk.js",
-    "static/js/2.fd14dc78.chunk.js.map": "/gallery_website/static/js/2.fd14dc78.chunk.js.map",
+    "static/js/2.5af3a65a.chunk.js": "/gallery_website/static/js/2.5af3a65a.chunk.js",
+    "static/js/2.5af3a65a.chunk.js.map": "/gallery_website/static/js/2.5af3a65a.chunk.js.map",
     "index.html": "/gallery_website/index.html",
-    "precache-manifest.b729f914215dc376e0a2cce7b9c4de47.js": "/gallery_website/precache-manifest.b729f914215dc376e0a2cce7b9c4de47.js",
+    "precache-manifest.f0a1ea51eb0aa82ff848340df028ba60.js": "/gallery_website/precache-manifest.f0a1ea51eb0aa82ff848340df028ba60.js",
     "service-worker.js": "/gallery_website/service-worker.js",
     "static/css/2.c0851dc3.chunk.css.map": "/gallery_website/static/css/2.c0851dc3.chunk.css.map",
-    "static/css/main.ed070ee6.chunk.css.map": "/gallery_website/static/css/main.ed070ee6.chunk.css.map",
+    "static/css/main.860497c5.chunk.css.map": "/gallery_website/static/css/main.860497c5.chunk.css.map",
     "static/media/IMG_0024.JPG": "/gallery_website/static/media/IMG_0024.0f1f1dbb.JPG",
     "static/media/codepen.jpg": "/gallery_website/static/media/codepen.ffaab203.jpg",
     "static/media/kayak.JPG": "/gallery_website/static/media/kayak.97f2c6d0.JPG",
     "static/media/index.css": "/gallery_website/static/media/leaves.203aa84f.png",
-    "static/media/tips.png": "/gallery_website/static/media/tips.54269225.png"
+    "static/media/lexi.JPG": "/gallery_website/static/media/lexi.ed4de6d7.JPG",
+    "static/media/tips.png": "/gallery_website/static/media/tips.54269225.png",
+    "static/media/tree.JPG": "/gallery_website/static/media/tree.0cdb7269.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.d393a503.js",
     "static/css/2.c0851dc3.chunk.css",
-    "static/js/2.fd14dc78.chunk.js",
-    "static/css/main.ed070ee6.chunk.css",
-    "static/js/main.a47dcd0d.chunk.js"
+    "static/js/2.5af3a65a.chunk.js",
+    "static/css/main.860497c5.chunk.css",
+    "static/js/main.c1330622.chunk.js"
   ]
 }
