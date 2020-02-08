@@ -6,7 +6,7 @@ export const CardBack = props => (
             <p>
                 {props.picture.tagline}
             </p>
-            <a className="link" href= {props.picture.link ? props.picture.link : ''} >{props.picture.link ? 'Click Me' : ''}</a>
+            <a className="link" href= {props.picture.link ? props.picture.link : ''} target="_blank" rel="noopener noreferrer">{props.picture.link ? 'Click Me' : ''}</a>
         </div>
     )
 
