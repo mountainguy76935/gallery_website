@@ -6,7 +6,7 @@
     margin-top: -10px;
     margin-left: -10px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     font-size: 35px;
     position: fixed;
     width: 100%;

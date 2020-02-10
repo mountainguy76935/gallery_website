@@ -18,11 +18,6 @@ export class Navigation extends React.Component{
                     HOME
                 </Link>
             </span>
-            <span className = "hov">
-                <Link style={styles} to="/contact">
-                    CONTACT
-                </Link>
-            </span>
         </div>
     )}
 }

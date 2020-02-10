@@ -14,10 +14,10 @@ class TextBox extends React.Component{
         this.state.about.map(box => 
         <div className="boxes">
             <h1>{box.name}</h1>
+            <img className="pix" alt={box.name} src={box.src} />
             <p className="caption">
                 {box.caption}
             </p>
-            <img className="pix" alt={box.name} src={box.src} />
         </div>
         )
     )}    

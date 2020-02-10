@@ -11,6 +11,7 @@
     transform: translateZ(0);
     transition: transform 0.25s ease-out;
     background-size: cover;
+    max-width: 270px;
 }
 
 .images{
