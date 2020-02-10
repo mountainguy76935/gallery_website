@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/gallery_website/static/css/main.860497c5.chunk.css",
-    "main.js": "/gallery_website/static/js/main.c1330622.chunk.js",
-    "main.js.map": "/gallery_website/static/js/main.c1330622.chunk.js.map",
+    "main.css": "/gallery_website/static/css/main.88985987.chunk.css",
+    "main.js": "/gallery_website/static/js/main.90e069bb.chunk.js",
+    "main.js.map": "/gallery_website/static/js/main.90e069bb.chunk.js.map",
     "runtime-main.js": "/gallery_website/static/js/runtime-main.d393a503.js",
     "runtime-main.js.map": "/gallery_website/static/js/runtime-main.d393a503.js.map",
     "static/css/2.c0851dc3.chunk.css": "/gallery_website/static/css/2.c0851dc3.chunk.css",
-    "static/js/2.5af3a65a.chunk.js": "/gallery_website/static/js/2.5af3a65a.chunk.js",
-    "static/js/2.5af3a65a.chunk.js.map": "/gallery_website/static/js/2.5af3a65a.chunk.js.map",
+    "static/js/2.e4214659.chunk.js": "/gallery_website/static/js/2.e4214659.chunk.js",
+    "static/js/2.e4214659.chunk.js.map": "/gallery_website/static/js/2.e4214659.chunk.js.map",
     "index.html": "/gallery_website/index.html",
-    "precache-manifest.d43997debaefede940550209cb4ed0ce.js": "/gallery_website/precache-manifest.d43997debaefede940550209cb4ed0ce.js",
+    "precache-manifest.3f8b89c742e58aa0a6ec7f7f0757761d.js": "/gallery_website/precache-manifest.3f8b89c742e58aa0a6ec7f7f0757761d.js",
     "service-worker.js": "/gallery_website/service-worker.js",
     "static/css/2.c0851dc3.chunk.css.map": "/gallery_website/static/css/2.c0851dc3.chunk.css.map",
-    "static/css/main.860497c5.chunk.css.map": "/gallery_website/static/css/main.860497c5.chunk.css.map",
+    "static/css/main.88985987.chunk.css.map": "/gallery_website/static/css/main.88985987.chunk.css.map",
     "static/media/IMG_0024.JPG": "/gallery_website/static/media/IMG_0024.0f1f1dbb.JPG",
     "static/media/codepen.jpg": "/gallery_website/static/media/codepen.ffaab203.jpg",
     "static/media/kayak.JPG": "/gallery_website/static/media/kayak.97f2c6d0.JPG",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.d393a503.js",
     "static/css/2.c0851dc3.chunk.css",
-    "static/js/2.5af3a65a.chunk.js",
-    "static/css/main.860497c5.chunk.css",
-    "static/js/main.c1330622.chunk.js"
+    "static/js/2.e4214659.chunk.js",
+    "static/css/main.88985987.chunk.css",
+    "static/js/main.90e069bb.chunk.js"
   ]
 }
