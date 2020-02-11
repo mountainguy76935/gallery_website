@@ -6,6 +6,5 @@ export const MainPage = (props) => (
     <div>
         <Title />
         <Randomize />
-        <a className="contact" href="mailto:stoll33david@gmail.com?subject=website help">Send me an email!</a>
     </div>
 )
