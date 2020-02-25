@@ -30,14 +30,18 @@ export class Navigation extends React.Component{
             </div>
             <div className = {row}  name="head" >  
                 <span className="hov">
-                    <Link style={styles} to='/about'>
-                        ABOUT
-                    </Link>
+                        { 
+                        this.state.toggled
+                        ?  <Link style={styles} to="/about">ABOUT</Link>
+                        : <Link style={styles} to="/about" onClick={ (event) => event.preventDefault() }>ABOUT</Link>
+                        }
                 </span>
                 <span className="hov">
-                    <Link style={styles} to='/'> 
-                        HOME
-                    </Link> 
+                    { 
+                        this.state.toggled
+                        ?  <Link style={styles} to="/">HOME</Link>
+                        : <Link style={styles} to="/" onClick={ (event) => event.preventDefault() }>HOME</Link>
+                    }
                 </span>
             </div>
         </div>
