@@ -9,7 +9,7 @@ const data = [
       name: "Sunset",
       id: "img1",
       src: logo,
-      tagline: "Isn't that just frikkin nice??"
+      tagline: "Isn't that just nice??"
     },
     {
       name: "Kayaking",

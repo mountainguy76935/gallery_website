@@ -17,9 +17,8 @@ export class Navigation extends React.Component{
       }
 
     render() {
-    let styles = {textDecoration: 'none', color: 'black'};
-    let line = this.state.toggled === true ? 'line' : 'line1';
-    let line1 = this.state.toggled === true ? 'line2' : 'line3';
+    let line = this.state.toggled === true ? 'line1' : 'line';
+    let line1 = this.state.toggled === true ? 'line3' : 'line2';
     let row = this.state.toggled === true ? 'row' : 'row1';
     return  (
         <div>
@@ -32,15 +31,15 @@ export class Navigation extends React.Component{
                 <span className="hov">
                         { 
                         this.state.toggled
-                        ?  <Link style={styles} to="/about">ABOUT</Link>
-                        : <Link style={styles} to="/about" onClick={ (event) => event.preventDefault() }>ABOUT</Link>
+                        ?  <Link className="linkClass" to="/about">ABOUT</Link>
+                        : <Link className="linkClass" to="/about" onClick={ (event) => event.preventDefault() }>ABOUT</Link>
                         }
                 </span>
                 <span className="hov">
                     { 
                         this.state.toggled
-                        ?  <Link style={styles} to="/">HOME</Link>
-                        : <Link style={styles} to="/" onClick={ (event) => event.preventDefault() }>HOME</Link>
+                        ?  <Link className="linkClass" to="/">HOME</Link>
+                        : <Link className="linkClass" to="/" onClick={ (event) => event.preventDefault() }>HOME</Link>
                     }
                 </span>
             </div>

@@ -1,7 +1,6 @@
 .cardback {
     height: 450px;
     margin: center;
-    display: flex;
     flex-direction: column;
     background-image: linear-gradient(to bottom, #3c7fa5, white);
     border-radius: 5px;
