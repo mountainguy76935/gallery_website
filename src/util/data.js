@@ -10,7 +10,7 @@ const data = [
       id: "img1",
       src: shapes,
       tagline: "App with shapes! Full screen and click around...",
-      link: "https://polar-plains-71031.herokuapp.com/"
+      link: "https://some-wild-shapes.herokuapp.com/"
     },
     {
       name: "Kayaking",
@@ -43,7 +43,7 @@ const data = [
       id: "img6",
       src: "https://bachasoftware.com/wp-content/uploads/2019/11/express.js-logo-2-1024x568.jpg",
       tagline: "Click here to check out my tip out calculator, implementing routing, mongoDB, express, and heroku.",
-      link: "https://whispering-dawn-27805.herokuapp.com/home"
+      link: "https://tip-out-calc.herokuapp.com/"
     },
     // {
     //   name: "whales",
