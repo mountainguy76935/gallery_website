@@ -29,6 +29,13 @@ export class Navigation extends React.Component{
             </div>
             <div className = {row}  name="head" >  
                 <span className="hov">
+                    { 
+                        this.state.toggled
+                        ?  <Link className="linkClass" to="/">HOME</Link>
+                        : <Link className="linkClass" to="/" onClick={ (event) => event.preventDefault() }>HOME</Link>
+                    }
+                </span>
+                <span className="hov">
                         { 
                         this.state.toggled
                         ?  <Link className="linkClass" to="/about">ABOUT</Link>
@@ -38,8 +45,8 @@ export class Navigation extends React.Component{
                 <span className="hov">
                     { 
                         this.state.toggled
-                        ?  <Link className="linkClass" to="/">HOME</Link>
-                        : <Link className="linkClass" to="/" onClick={ (event) => event.preventDefault() }>HOME</Link>
+                        ?  <Link className="linkClass" to="/daily_pic">NASA PIC!</Link>
+                        : <Link className="linkClass" to="/daily_pic" onClick={ (event) => event.preventDefault() }>NASA PIC!</Link>
                     }
                 </span>
             </div>
