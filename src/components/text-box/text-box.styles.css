@@ -18,6 +18,7 @@
     padding: 5%;
     position: relative;
     justify-content: space-evenly;
+    border-radius: 20%;
 }
 
 .fade-in-section {

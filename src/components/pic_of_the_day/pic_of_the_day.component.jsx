@@ -30,9 +30,10 @@ class PicOTheDay extends React.Component {
             <div className="pic">
                 <h1>NASA PICTURE OF THE DAY!</h1>
                 <p>{this.state.date}</p>
-                <img src={this.state.source} alt={this.state.title}/>
+                <img className= "nasa-img" src={this.state.source} alt={this.state.title}/>
                 <br />
-                <span>{this.state.explanation}</span>
+                <p className="pic-text">{this.state.explanation}</p>
+                <h6>*I incorporated this feature using NASA's 'picture of the day' API* </h6>
             </div>
         )
     }

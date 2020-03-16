@@ -4,8 +4,6 @@
   "private": true,
   "homepage": "https://mountainguy76935.github.io/gallery_website",
   "dependencies": {
-    "gh-pages": "^2.1.1",
-    "jquery": "^3.4.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-flippy": "^0.1.5",

@@ -1,9 +1,19 @@
 .pic{
     padding-top: 80px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: larger;
 }
 
-img{
-    max-width: 100%;
-    height: auto;
-    width: auto
+.nasa-img{
+    max-width: 35%;
+    max-height: 10%;
+    -o-object-fit: contain;
+    object-fit: contain;
+    border-radius: 5%;
+}
+
+.pic-text{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
 }
