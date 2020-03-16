@@ -5,8 +5,8 @@
 }
 
 .nasa-img{
-    max-width: 35%;
-    max-height: 10%;
+    width: 35%;
+    height: 10%;
     -o-object-fit: contain;
     object-fit: contain;
     border-radius: 5%;

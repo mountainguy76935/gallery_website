@@ -26,10 +26,55 @@ class PicOTheDay extends React.Component {
         };
 
     render() {
+        const date = () => {
+            let result = new Date().getMonth();
+            switch(result) {
+                case 0: 
+                    result="January"
+                    break;
+                case 1: 
+                    result="February"
+                    break;
+                case 2:
+                    result = "March";
+                    break;
+                case 3:
+                    result = "April";
+                    break;
+                case 4: 
+                    result="May"
+                    break;
+                case 5: 
+                    result="June"
+                    break;
+                case 6:
+                    result = "July";
+                    break;
+                case 7:
+                    result = "August";
+                    break;
+                case 8: 
+                    result="September"
+                    break;
+                case 9: 
+                    result="October"
+                    break;
+                case 10:
+                    result = "November";
+                    break;
+                case 11:
+                    result = "December";
+                    break;
+                default: 
+                    result="";
+            }
+            return result+" "+(new Date().getDate())+", "+this.state.date.split('-')[0];
+        }
+             
         return (
             <div className="pic">
                 <h1>NASA PICTURE OF THE DAY!</h1>
-                <p>{this.state.date}</p>
+                <p>{date()}</p>
                 <img className= "nasa-img" src={this.state.source} alt={this.state.title}/>
                 <br />
                 <p className="pic-text">{this.state.explanation}</p>
