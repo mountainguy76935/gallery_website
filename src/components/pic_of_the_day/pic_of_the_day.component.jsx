@@ -87,7 +87,7 @@ class PicOTheDay extends React.Component {
                         url={source} 
                         width='50%'
                     />
-                    : 'does not work!'}
+                    : 'loading...'}
                 <br />
                 <p className="pic-text">{this.state.explanation}</p>
                 <h6>*I incorporated this feature using NASA's 'picture of the day' API* </h6>
