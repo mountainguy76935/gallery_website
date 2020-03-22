@@ -12,6 +12,16 @@
     border-radius: 5%;
 }
 
+.nasa-vid{
+    width: 35%;
+    height: 10%;
+    -o-object-fit: contain;
+    object-fit: contain;
+    border-radius: 5%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
 .pic-text{
     text-align: center;
     padding-left: 10%;

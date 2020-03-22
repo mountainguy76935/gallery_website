@@ -1,5 +1,6 @@
 import React from 'react';
 import './pic_of_the_day.styles.css';
+import ReactPlayer from 'react-player'
 
 class PicOTheDay extends React.Component {
     constructor(props) {
@@ -18,14 +19,17 @@ class PicOTheDay extends React.Component {
             .then(data => {
                 this.setState({
                     date: data['date'],
-                    source: data['hdurl'],
+                    hdsource: data['hdurl'],
+                    source: data['url'],
                     title: data['title'],
+                    type: data['media_type'],
                     explanation: data['explanation']
                 })
             })
         };
 
     render() {
+        const source = this.state.hdsource || this.state.source;
         const date = () => {
             let result = new Date().getMonth();
             switch(result) {
@@ -75,7 +79,15 @@ class PicOTheDay extends React.Component {
             <div className="pic">
                 <h1>NASA PICTURE OF THE DAY!</h1>
                 <p>{date()}</p>
-                <img className= "nasa-img" src={this.state.source} alt={this.state.title}/>
+                {
+                this.state.type === 'picture' ? <img className= "nasa-img" src={source} alt={this.state.title}/>
+                    : ReactPlayer.canPlay(source) ? 
+                    <ReactPlayer 
+                        className = 'nasa-vid' 
+                        url={source} 
+                        width='50%'
+                    />
+                    : 'does not work!'}
                 <br />
                 <p className="pic-text">{this.state.explanation}</p>
                 <h6>*I incorporated this feature using NASA's 'picture of the day' API* </h6>
