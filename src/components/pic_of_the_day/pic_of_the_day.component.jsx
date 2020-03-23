@@ -80,7 +80,7 @@ class PicOTheDay extends React.Component {
                 <h1>NASA PICTURE OF THE DAY!</h1>
                 <p>{date()}</p>
                 {
-                this.state.type === 'picture' ? <img className= "nasa-img" src={source} alt={this.state.title}/>
+                this.state.type === 'image' ? <img className= "nasa-img" src={source} alt={this.state.title}/>
                     : ReactPlayer.canPlay(source) ? 
                     <ReactPlayer 
                         className = 'nasa-vid' 
