@@ -29,8 +29,9 @@ class PicOTheDay extends React.Component {
         };
 
     render() {
-        const source = this.state.hdsource || this.state.source;
-        const date = () => {
+        const { date, hdsource, source, title, type, explanation } = this.state;
+        const sources = hdsource || source;
+        const dates = () => {
             let result = new Date().getMonth();
             switch(result) {
                 case 0: 
@@ -72,24 +73,25 @@ class PicOTheDay extends React.Component {
                 default: 
                     result="";
             }
-            return result+" "+(new Date().getDate())+", "+this.state.date.split('-')[0];
+            return result+" "+(new Date().getDate())+", "+date.split('-')[0];
         }
              
         return (
             <div className="pic">
                 <h1>NASA PICTURE OF THE DAY!</h1>
-                <p>{date()}</p>
+                <p>{dates()}</p>
+                <h3>{title}</h3>
                 {
-                this.state.type === 'image' ? <img className= "nasa-img" src={source} alt={this.state.title}/>
-                    : ReactPlayer.canPlay(source) ? 
+                type === 'image' ? <img className= "nasa-img" src={sources} alt={title}/>
+                    : ReactPlayer.canPlay(sources) ? 
                     <ReactPlayer 
                         className = 'nasa-vid' 
-                        url={source} 
+                        url={sources} 
                         width='50%'
                     />
                     : 'loading...'}
                 <br />
-                <p className="pic-text">{this.state.explanation}</p>
+                <p className="pic-text">{explanation}</p>
                 <h6>*I incorporated this feature using NASA's 'picture of the day' API* </h6>
             </div>
         )
