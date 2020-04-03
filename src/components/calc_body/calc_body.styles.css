@@ -1,0 +1,14 @@
+.main-grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 16% 16% 16% 16% 16% 16%;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2b463c;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    border: solid;
+    font-size: 30px;
+}

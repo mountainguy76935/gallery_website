@@ -3,6 +3,7 @@ import tips from "../pictures/tips.png";
 import github from "../pictures/github.png";
 import codepen from '../pictures/codepen.jpg';
 import shapes from '../pictures/shapes.jpg';
+import calc from '../pictures/calc.png';
 
 const data = [
     {
@@ -25,38 +26,33 @@ const data = [
       tagline: "Just a little tip out calculator that I made for my job...",
       link: 'https://mountainguy76935.github.io/tip_out_calc/'
     },
-    // {
-    //   name: "cat",
-    //   id: "img4",
-    //   src: "https://thumbs.dreamstime.com/z/red-cat-16532510.jpg",
-    //   tagline: "He's a cutie pie with tiny little ears, yeehaw"
-    // },
     {
       name: "Github",
-      id: "img5",
+      id: "img4",
       src: github,
       tagline: "My github! This site has some of my solutions to problems from the Euler Project, FreeCodeCamp, and Code Wars.",
       link: 'https://github.com/mountainguy76935'
     },
     {
       name: "Tip out calculator (part 2)",
-      id: "img6",
+      id: "img5",
       src: "https://bachasoftware.com/wp-content/uploads/2019/11/express.js-logo-2-1024x568.jpg",
       tagline: "Click here to check out my tip out calculator, implementing routing, mongoDB, express, and heroku.",
       link: "https://tip-out-calc.herokuapp.com/"
     },
-    // {
-    //   name: "whales",
-    //   id: "img7",
-    //   src: "https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/f_auto,q_auto,w_1100/v1555389498/shape/mentalfloss/istock_000046395108_small_0.jpg",
-    //   tagline: "Our best friends on the planet, and greatest singers"
-    // },
     {
       name: "code pen",
-      id: "img8",
+      id: "img6",
       src: codepen,
       tagline: "A couple small programs to showcase some html/css/javascript",
       link: 'https://codepen.io/mountainguy76935'
+    },
+    {
+      name: "Regular Calculator",
+      id: "img7",
+      src: calc,
+      tagline: "This is just a little calculator I made using React",
+      link: 'calc'
     }
   ];
 
