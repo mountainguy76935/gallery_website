@@ -10,99 +10,123 @@
 .buttons.clear{
     grid-area: 2 / 1 / 2 / 3;
     background-color: rgb(148, 45, 45);
-    opacity: .7
+    color: white;
 }
 
 .buttons.clear.active{
     grid-area: 2 / 1 / 2 / 3;
-    background-color: rgb(243, 126, 175)
+    background-color: white;
+    color: black;
 }
 
 .buttons.divide{
     grid-area: 2 / 3 / 2 / 4;
-    background-color: #b1d182;
-    opacity: .5;
+    background-color: grey;
+    color: white;
 }
 
 .buttons.multiply{
     grid-area: 2 / 4 / 2 / 5;
-    background-color: #b1d182;
-    opacity: .5;
+    background-color: grey;
+    color: white;
 }
 
 .buttons.subtract{
     grid-area: 3 / 4 / 3 / 5;
-    background-color: #b1d182;
-    opacity: .5;
+    background-color: grey;
+    color: white;
 }
 
 .buttons.add{
     grid-area: 4 / 4 / 4 / 5;
-    background-color: #b1d182;
-    opacity: .5;
+    background-color: grey;
+    color: white;
 }
 
 .buttons.equals{
     grid-area: 5 / 4 / 7 / 6;
-    background-color: #b1d182;
-    opacity: .5;
+    background-color: grey;
+    color: white;
 }
 
 .buttons.point{
     grid-area: 6 / 3 / 6 / 3;
-    background-color: #b1d182;
+    background-color: black;
+    color: white;
+    border: solid white .5px;
 }
 
 .buttons.seven{
     grid-area: 3 / 1 / 3 / 2;
-    background-color: #b1d182;
+    background-color: black;
+    color: white;
+    border: solid white .5px;
 }
 
 .buttons.eight{
     grid-area: 3 / 2 / 3 / 3;
-    background-color: #b1d182;
+    background-color: black;
+    color: white;
+    border: solid white .5px;
 }
 
 .buttons.nine{
     grid-area: 3 / 3 / 3 / 4;
-    background-color: #b1d182;
+    background-color: black;
+    color: white;
+    border: solid white .5px;
 }
 
 .buttons.four{
     grid-area: 4 / 1 / 4 / 2;
-    background-color: #b1d182;
+    background-color: black;
+    color: white;
+    border: solid white .5px;
 }
 
 .buttons.five{
     grid-area: 4 / 2 / 4 / 3;
-    background-color: #b1d182;
+    background-color: black;
+    color: white;
+    border: solid white .5px;
 }
 
 .buttons.six{
     grid-area: 4 / 3 / 4 / 4;
-    background-color: #b1d182;
+    background-color: black;
+    color: white;
+    border: solid white .5px;
 }
 
 .buttons.one{
     grid-area: 5 / 1 / 5 / 2;
-    background-color: #b1d182;
+    background-color: black;
+    color: white;
+    border: solid white .5px;
 }
 
 .buttons.two{
     grid-area: 5 / 2 / 5 / 3;
-    background-color: #b1d182;
+    background-color: black;
+    color: white;
+    border: solid white .5px;
 }
 
 .buttons.three{
     grid-area: 5 / 3 / 5 / 4;
-    background-color: #b1d182;
+    background-color: black;
+    color: white;
+    border: solid white .5px;
 }
 
 .buttons.zero{
     grid-area: 6 / 1 / 6 / 3;
-    background-color: #b1d182;
+    background-color: black;
+    color: white;
+    border: solid white .5px;
 }
 
 .buttons.active{
-    background-color: #ffffff;
+    background-color: white;;
+    color: black
 }
