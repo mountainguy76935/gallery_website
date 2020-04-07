@@ -30,23 +30,56 @@ export class Navigation extends React.Component{
             <div className = {row}  name="head" >  
                 <span className="hov">
                     { 
-                        this.state.toggled
-                        ?  <Link className="linkClass" to="/">HOME</Link>
-                        : <Link className="linkClass" to="/" onClick={ (event) => event.preventDefault() }>HOME</Link>
+                        this.state.toggled ?
+                        <Link 
+                            className="linkClass" 
+                            to="/"
+                        >
+                            HOME
+                        </Link> :
+                        <Link 
+                            className="linkClass" 
+                            to="/" 
+                            onClick={ (event) => event.preventDefault() }
+                        >
+                            HOME
+                        </Link>
                     }
                 </span>
                 <span className="hov">
                         { 
-                        this.state.toggled
-                        ?  <Link className="linkClass" to="/about">ABOUT</Link>
-                        : <Link className="linkClass" to="/about" onClick={ (event) => event.preventDefault() }>ABOUT</Link>
+                        this.state.toggled ?
+                        <Link 
+                            className="linkClass" 
+                            to="/about"
+                        >
+                            ABOUT
+                        </Link> :
+                        <Link 
+                            className="linkClass" 
+                            to="/about" 
+                            onClick={ (event) => event.preventDefault() }
+                        >
+                            ABOUT
+                        </Link>
                         }
                 </span>
                 <span className="hov">
                     { 
-                        this.state.toggled
-                        ?  <Link className="linkClass" to="/daily_pic">NASA PIC!</Link>
-                        : <Link className="linkClass" to="/daily_pic" onClick={ (event) => event.preventDefault() }>NASA PIC!</Link>
+                        this.state.toggled ?
+                        <Link 
+                            className="linkClass" 
+                            to="/daily_pic"
+                        >
+                            NASA PIC!
+                        </Link> :
+                        <Link 
+                            className="linkClass" 
+                            to="/daily_pic" 
+                            onClick={ (event) => event.preventDefault() }
+                        >
+                            NASA PIC!
+                        </Link>
                     }
                 </span>
             </div>

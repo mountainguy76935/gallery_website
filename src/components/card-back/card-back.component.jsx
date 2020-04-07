@@ -8,8 +8,23 @@ export const CardBack = props => (
                 {props.picture.tagline}
             </p>
             {props.picture.link !== 'calc' ?
-            <a className="link" href= {props.picture.link ? props.picture.link : ''} target="_blank" rel="noopener noreferrer">{props.picture.link ? 'Click Me' : ''}</a> :
-            <Link to="/calculator">Click Me!</Link>
+            <a 
+                className="link" 
+                href= {
+                    props.picture.link ? 
+                    props.picture.link : 
+                    ''
+                } 
+                target="_blank" 
+                rel="noopener noreferrer"
+                >
+                    {props.picture.link ? 
+                    'Click Me' : 
+                    ''}
+                </a> :
+            <Link to="/calculator">
+                Click Me
+            </Link>
             }
         </div>
     )

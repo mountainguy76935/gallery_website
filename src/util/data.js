@@ -5,6 +5,7 @@ import codepen from '../pictures/codepen.jpg';
 import shapes from '../pictures/shapes.jpg';
 import calc from '../pictures/calc.png';
 import chem from '../pictures/chem.jpg';
+import node from '../pictures/node.png';
 
 const data = [
     {
@@ -37,7 +38,7 @@ const data = [
     {
       name: "Tip out calculator (part 2)",
       id: "img5",
-      src: "https://bachasoftware.com/wp-content/uploads/2019/11/express.js-logo-2-1024x568.jpg",
+      src: node,
       tagline: "Click here to check out my tip out calculator, implementing routing, mongoDB, express, and heroku.",
       link: "https://tip-out-calc.herokuapp.com/"
     },
@@ -59,7 +60,7 @@ const data = [
       name: "Periodic Table App",
       id: "img8",
       src: chem,
-      tagline: "Learn some chemistry! Periodic table made using an API, React, and Express",
+      tagline: "Learn some chemistry! Periodic table made using an API, React, and Express (desktop only, for now!)",
       link: 'https://greatest-periodic-table-foreal.herokuapp.com'
     }
   ];

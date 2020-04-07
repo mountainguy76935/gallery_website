@@ -17,24 +17,14 @@
     transform: scale(1.05);
 }
 
-.link{
-    font-size: 15px;
-    color: #211874;
-};
-
-.link:hover{
-    font-size: 15px;
-    color: #165f28;
-}
-
 [href] {
     color: black;
     text-decoration: none;
     transform: cubic-bezier(.17,.67,.83,.67);
-    transition: transform 3s ease-out;
+    transition-duration: 1.5s;
     font-size: 40px;
 }
 
 [href]:hover{
-    transform: scale(1.2);
+    color: white
 }
