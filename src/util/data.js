@@ -60,7 +60,7 @@ const data = [
       id: "img8",
       src: chem,
       tagline: "Learn some chemistry!",
-      link: 'https://fancy-periodic-table.herokuapp.com/'
+      link: 'https://greatest-periodic-table-foreal.herokuapp.com'
     }
   ];
 
