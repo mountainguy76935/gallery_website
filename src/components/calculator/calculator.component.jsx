@@ -257,7 +257,7 @@ export class Calculator extends React.Component{
                     handleSolve={this.handleSolve}
                     {...this.state}
                 />
-                <p>
+                <p className="directions">
                     <br />
                     p = plus
                     <br />

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export const CardBack = props => (
         <div className="cardback">
-            <p>
+            <p className='text'>
                 {props.picture.tagline}
             </p>
             {props.picture.link !== 'calc' ?
@@ -19,11 +19,13 @@ export const CardBack = props => (
                 rel="noopener noreferrer"
                 >
                     {props.picture.link ? 
-                    'Click Me' : 
+                    'Click Me!' : 
                     ''}
                 </a> :
-            <Link to="/calculator">
-                Click Me
+            <Link
+                className="cardLink" 
+                to="/calculator">
+                Click Me!
             </Link>
             }
         </div>

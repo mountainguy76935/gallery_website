@@ -36,14 +36,14 @@ const data = [
       link: 'https://github.com/mountainguy76935'
     },
     {
-      name: "Tip out calculator (part 2)",
+      name: "Tip Out calculator (Part 2)",
       id: "img5",
       src: node,
       tagline: "Click here to check out my tip out calculator, implementing routing, mongoDB, express, and heroku.",
       link: "https://tip-out-calc.herokuapp.com/"
     },
     {
-      name: "code pen",
+      name: "Code Pen",
       id: "img6",
       src: codepen,
       tagline: "A couple small programs to showcase some html/css/javascript",

@@ -12,6 +12,9 @@
     transition: transform 0.25s ease-out;
     background-size: cover;
     max-width: 270px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 20px
 }
 
 .images{

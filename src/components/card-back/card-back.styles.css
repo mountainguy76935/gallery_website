@@ -13,6 +13,12 @@
     background-size: cover;
 }
 
+.text{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
 .cardback:hover {
     transform: scale(1.05);
 }
@@ -23,8 +29,11 @@
     transform: cubic-bezier(.17,.67,.83,.67);
     transition-duration: 1.5s;
     font-size: 40px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
 }
 
 .cardLink:hover{
-    color: white
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
 }

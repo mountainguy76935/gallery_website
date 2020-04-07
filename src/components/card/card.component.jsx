@@ -11,7 +11,6 @@ export const Card = props => (
             height="180px"
         />
         <h2>{props.picture.name}</h2>
-        <p>Click Me to learn more!</p>
     </div>
 )
 

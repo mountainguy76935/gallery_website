@@ -1,3 +1,9 @@
 .calc-app{
     padding-top: 8%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.directions{
+    margin-top: -6px
 }
