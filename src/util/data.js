@@ -4,6 +4,7 @@ import github from "../pictures/github.png";
 import codepen from '../pictures/codepen.jpg';
 import shapes from '../pictures/shapes.jpg';
 import calc from '../pictures/calc.png';
+import chem from '../pictures/chem.jpg';
 
 const data = [
     {
@@ -53,6 +54,13 @@ const data = [
       src: calc,
       tagline: "This is just a little calculator I made using React",
       link: 'calc'
+    }, 
+    {
+      name: "Periodic Table App",
+      id: "img8",
+      src: chem,
+      tagline: "Learn some chemistry!",
+      link: 'https://fancy-periodic-table.herokuapp.com/'
     }
   ];
 
