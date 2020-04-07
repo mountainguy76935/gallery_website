@@ -9,7 +9,7 @@ export const CardBack = props => (
             </p>
             {props.picture.link !== 'calc' ?
             <a 
-                className="link" 
+                className="cardLink" 
                 href= {
                     props.picture.link ? 
                     props.picture.link : 
