@@ -59,7 +59,7 @@ const data = [
       name: "Periodic Table App",
       id: "img8",
       src: chem,
-      tagline: "Learn some chemistry!",
+      tagline: "Learn some chemistry! Periodic table made using an API, React, and Express",
       link: 'https://greatest-periodic-table-foreal.herokuapp.com'
     }
   ];
