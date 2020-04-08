@@ -2,7 +2,7 @@ import React from "react";
 import './card-back.styles.css';
 import { Link } from 'react-router-dom'
 
-export const CardBack = props => (
+export const CardBack = (props) => (
         <div className="cardback">
             <p className='text'>
                 {props.picture.tagline}

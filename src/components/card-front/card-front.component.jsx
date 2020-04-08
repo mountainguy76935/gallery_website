@@ -1,10 +1,10 @@
 import React from "react";
 import './card-front.styles.css';
 
-export const Card = props => (
-    <div className = 'cardfront'>
+export const CardFront = (props) => (
+    <div className = 'cardfrot'>
         <img 
-            className="images" 
+            className="cardImages" 
             alt={props.picture.id} 
             src={props.picture.src} 
             width="180px" 
