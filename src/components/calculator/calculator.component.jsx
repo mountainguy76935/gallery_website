@@ -261,7 +261,7 @@ export class Calculator extends React.Component{
                     <br />
                     p = plus
                     <br />
-                    s = subtract
+                    - = subtract
                     <br />
                     / = divide
                     <br />
