@@ -6,8 +6,8 @@
 }
 
 .flippy-card.flippy-front{
-    height: 420px;
-    width: 250px;
+    height: 450px;
+    width: 270px;
     margin: center;
     flex-direction: column;
     background-image: linear-gradient(to bottom, #3c7fa5, white);
