@@ -1,13 +1,23 @@
+@media screen and (max-width: 400px) {
+    .pix{
+        max-width: 90%;
+        min-width: 90%;
+        padding-left: -5%;
+    }
+}
+
+
 .boxes {
-    height: 100%;
     font-size: 25px;
+    height: 100%;
     font-family: 'Open Sans Condensed', sans-serif;
     overflow: hidden;
     text-align: center;
+
 }
 
 .caption{
-    width: 70%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }

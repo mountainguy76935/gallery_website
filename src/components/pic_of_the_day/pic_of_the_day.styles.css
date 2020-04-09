@@ -1,3 +1,10 @@
+@media screen and (max-width: 400px) {
+    .nasa-img{
+        max-width: 90%;
+        min-width: 90%;
+    }
+}
+
 .pic{
     padding-top: 80px;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -5,8 +12,8 @@
 }
 
 .nasa-img{
-    width: 35%;
-    height: 10%;
+    max-width: 35%;
+    max-height: 10%;
     -o-object-fit: contain;
     object-fit: contain;
     border-radius: 5%;
