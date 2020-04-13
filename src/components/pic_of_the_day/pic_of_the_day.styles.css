@@ -9,6 +9,8 @@
     padding-top: 80px;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: larger;
+    height: 100%;
+    background-color: black
 }
 
 .nasa-img{

@@ -1,3 +1,14 @@
+@media screen and (max-width: 400px) {
+    .App{
+        overflow-x: hidden;
+        width: 375px;
+    }
+}
+
 .App{
     text-align: center;
+    height: 100%;
+    width: 100%;
+    transition-duration: 1.5s;
+    background-color: black
 }

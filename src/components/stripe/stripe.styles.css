@@ -1,0 +1,297 @@
+@media screen and (max-width: 400px) {
+  .stripe{
+    margin-left: -5px;
+    width: 375px;
+  }
+
+  .animation_box{
+    margin-left: -455px;
+    width: 375px;
+  }
+
+  .whole{
+    height: 812px;
+    width: 375px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .stripe{
+    margin-left: 450px;
+  }
+  .animation_box{
+    margin-left: 0px;
+  }
+  .whole{
+    height: 625px;
+  }
+}
+
+@keyframes heightChange {
+    from {
+        height: 10px;
+        border-radius: 30px;
+    } 
+    to {
+        height: 400px;
+        border-radius: 0px;
+    }
+}
+
+@keyframes skewIt1 {
+    from {
+        height: 10px;
+        transform: auto;
+        width: 80px;
+        left: 443px;
+    } 
+    to {
+        height: 400px;
+        transform: auto;
+        width: 300px;
+        left: 8px;
+    }
+}
+
+@keyframes skewIt2 {
+    from {
+        height: 10px;
+        transform: auto;
+        width: 230px;
+        left: 376px;
+    } 
+    to {
+        height: 400px;
+        transform: auto;
+        width: 250px;
+        left: 220px;
+    }
+}
+
+@keyframes skewIt3 {
+    from {
+        height: 10px;
+        transform: auto;
+        width: 400px;
+        left: 413px;
+    } 
+    to {
+        height: 400px;
+        transform: auto;
+        width: 675px;
+        left: 248px
+    }
+}
+
+@keyframes skewIt4 {
+    from {
+        height: 10px;
+        transform: auto;
+        width: 230px;
+        left: 690px;
+    } 
+    to {
+        height: 400px;
+        transform: auto;
+        width: 230px;
+        left: 805px
+    }
+}
+
+@keyframes skewIt5 {
+    from {
+        height: 10px;
+        transform: auto;
+        width: 230px;
+        left: 778px;
+    } 
+    to {
+        height: 400px;
+        transform: auto;
+        width: 325px;
+        left: 956px
+    }
+}
+
+.whole{
+  position: relative;
+  height: 625;
+  width: 1200;
+  overflow: hidden;
+}
+
+.stripe{
+    width: 1200px;
+    height: 400px;
+    margin-top: 0%;
+    position: relative;
+    overflow: hidden;
+  }
+
+.stripea{
+    height: 10px;
+    width: 80px;
+    border-radius: 30px;
+    position: absolute;
+    animation: heightChange ease-in 1;
+    animation-fill-mode:forwards;
+    animation-duration:.7s;
+    opacity: 1;
+    background-color: #EFC413;
+    z-index: 10;
+    position: absolute;
+  }
+  
+.stripeb{
+    animation: heightChange ease-in 1;
+    animation-fill-mode:forwards;
+    animation-duration:.7s;
+    left: 80px;
+    height: 10px;
+    width: 80px;
+    border-radius: 30px;
+    position: absolute;
+    opacity: 1;
+    background-color: 	#E99A17;
+    z-index: 11;
+    position: absolute;
+  }
+  
+  .stripec{
+    animation: heightChange ease-in 1;
+    animation-fill-mode:forwards;
+    animation-duration:.7s;
+    left: 160px;
+    height: 10px;
+    width: 80px;
+    border-radius: 30px;
+    position: absolute;
+    opacity: 1;
+    background-color: #D45717;
+    z-index: 12;
+    position: absolute;
+  }
+  
+  .striped{
+    animation: heightChange ease-in 1;
+    animation-fill-mode:forwards;
+    animation-duration:.7s;
+    left: 240px;
+    height: 10px;
+    width: 80px;
+    border-radius: 30px;
+    position: absolute;
+    opacity: 1;
+    background-color: 	#E33E32;
+    z-index: 13;
+    position: absolute;
+  }
+  
+  .stripee{
+    animation: heightChange ease-in 1;
+    animation-fill-mode:forwards;
+    animation-duration:.7s;
+    left: 320px;
+    height: 10px;
+    width: 80px;
+    border-radius: 30px;
+    position: absolute;
+    opacity: 1;
+    background-color: #CB303E;
+    z-index: 14;
+    position: absolute;
+  }
+
+  .stripe_black_left{
+    width: 20%;
+    transform: skewX(-62deg);
+    z-index: 10;
+    left: -205px;
+    height: 400px;
+    position: absolute;
+    transition-duration: 1.5s;
+  }
+
+  .stripe_black_right{
+    width: 20%;
+    transform: skewX(62deg);
+    z-index: 10;
+    position: absolute;
+    height: 400px;
+    left: 1226px;
+    transition-duration: 1.5s;
+  }
+
+.stripe1{
+    transform: skewX(-48deg);
+    height: 0px;
+    width: 0px;
+    animation: skewIt1 ease-in 1;
+    animation-fill-mode:forwards;
+    animation-delay: .7s;
+    animation-duration:.3s;
+    background-color: #EFC413;
+    position: absolute;
+    z-index: 3;
+  }
+
+  .stripe2{
+    transform: skewX(-35deg);
+    height: 0px;
+    width: 0px;
+    animation: skewIt2 ease-in 1;
+    animation-fill-mode:forwards;
+    animation-delay: .7s;
+    animation-duration:.3s;
+    background-color: #E99A17;
+    position: absolute;
+    z-index: 2;
+  }
+
+  .stripe3{
+    height: 0px;
+    width: 0px;
+    animation: skewIt3 ease-in 1;
+    animation-fill-mode:forwards;
+    animation-delay: .7s;
+    animation-duration:.3s;
+    background-color: #D45717;
+    left: 260px;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .stripe4{
+    transform: skewX(30deg);
+    height: 0px;
+    width: 0px;
+    animation: skewIt4 ease-in 1;
+    animation-fill-mode:forwards;
+    animation-delay: .7s;
+    animation-duration:.3s;
+    background-color: #E33E32;
+    position: absolute;
+    z-index: 2;
+  }
+
+  .stripe5{
+    transform: skewX(43deg);
+    height: 0px;
+    width: 0px;
+    animation: skewIt5 ease-in 1;
+    animation-fill-mode:forwards;
+    animation-delay: .7s;
+    animation-duration:.3s;
+    background-color: #CB303E;
+    position: absolute;
+    z-index: 3;
+  }
+
+  .animation_box{
+    position: relative;
+    padding: none;
+    margin: none;
+    width: 1400px;
+    height: 400px;
+    overflow: hidden
+  }

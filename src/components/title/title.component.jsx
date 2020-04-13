@@ -1,16 +1,28 @@
 import React from 'react';
-import './title.styles.css'
+import './title.styles.css';
+import { Stripe } from '../stripe/stripe.component'
 
-export const Title = () => (
+export const Title = (props) => {
+      let colors = ['#f2d8b3', '#8fb0a9']
+      let percent = new Array(2).fill(35).map((a, i) => a-(1*i));
+      let leftPer = 50;
+      return (
             <div className='fade'>
-                  <h1 className = "title">
-                        Welcome To My Website
+            {percent.map((a, i) => {
+                  return(
+                  <h1 
+                        className = "title" 
+                        style={{
+                              top: `${a}%`, 
+                              left: `${leftPer-i/3}%`,
+                              animationDelay: `${1+(i/10)}s`, 
+                              color: colors[i]}}
+                  >
+                        Welcome
                   </h1>
-                        <br />
-                  <p 
-                  className="welcome">
-                        Thanks for visiting! Scroll down to see awesome pictures. Click on the cards
-                        to view descriptions and links to some of my projects!
-                  </p>
+                  )    
+            })}
+            <Stripe {...props}/>
             </div>
-)
+      )
+}

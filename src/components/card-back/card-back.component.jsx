@@ -3,13 +3,10 @@ import './card-back.styles.css';
 import { Link } from 'react-router-dom'
 
 export const CardBack = (props) => (
-        <div className="cardback">
-            <p className='text'>
-                {props.picture.tagline}
-            </p>
+        <div className="cardback" style={{backgroundColor: props.mainColor ? props.mainColor : 'black'}}>
             {props.picture.link !== 'calc' ?
             <a 
-                className="cardLink" 
+                className='backlink'
                 href= {
                     props.picture.link ? 
                     props.picture.link : 
@@ -19,13 +16,14 @@ export const CardBack = (props) => (
                 rel="noopener noreferrer"
                 >
                     {props.picture.link ? 
-                    'Click Me!' : 
+                    'CLICK!' : 
                     ''}
                 </a> :
             <Link
-                className="cardLink" 
-                to="/calculator">
-                Click Me!
+                className="backlink"
+                to="/calculator"
+                >
+                CLICK!
             </Link>
             }
         </div>

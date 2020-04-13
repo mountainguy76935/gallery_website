@@ -1,0 +1,18 @@
+.circles{
+    height: 100px;
+    width: 100px;
+    margin: 30%;
+    border-radius: 50%;
+}
+
+.balls{
+    top: 15%;
+    right: 15%;
+    height: 100px;
+    width: 100px;
+    margin: 30%;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    z-index: 20;
+}

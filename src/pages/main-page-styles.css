@@ -1,0 +1,27 @@
+@media screen and (max-width: 400px) {
+    .circle_list{
+        margin-top: -140%
+    }
+
+    .rightCircle{
+        padding-right: 15% 
+    }
+    .leftCircle{
+        margin-left: -9% 
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .circle_list{
+        margin-top: -600px;
+    }
+    
+    .rightCircle{
+        padding-right: 6%;
+    }
+    
+    .leftCircle{
+        padding-left: 0%;
+    }
+}
+

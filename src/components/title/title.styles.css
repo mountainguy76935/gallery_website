@@ -1,25 +1,51 @@
 @keyframes fadeIn { from { opacity:0; } to { opacity:1} }
+@media screen and (max-width: 400px) {
+  .title{
+    margin-top: -70px;
+    position: absolute;
+    font-size: 10px;
+    animation: fadeIn ease-in 1;
+    animation-fill-mode:forwards;
+    animation-duration:1s;
+    font-family: 'Pacifico', cursive;
+    font-size: 52px;
+    transform: translate(-48%, -60%);
+    z-index: 20;
+    opacity: 0;
+  }
+  .fade{
+    width: 375px;
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .title {
+    animation: fadeIn ease-in 1;
+    animation-fill-mode:forwards;
+    animation-duration:1s;
+    font-family: 'Pacifico', cursive;
+    font-size: 72px;
+    animation-fill-mode:forwards;
+    animation-duration:.1s;
+    position: absolute;
+    left: 45%;
+    transform: translate(-60%, -50%);
+    z-index: 20;
+    opacity: 0;
+  }
+}
+
 
 .fade {
-    padding-bottom: 300px;
-    padding-top: 120px;
+    padding-top: -10px;
     opacity:0;
     animation:fadeIn ease-in 1;
     animation-fill-mode:forwards;
     animation-duration:1s;
     text-align: center;
     animation-iteration-count: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
-
-  .title {
-    color: #3c7fa5;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    font-family: 'Pacifico', cursive;
-    font-size: 72px;
-  }
-
-.welcome{
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-}

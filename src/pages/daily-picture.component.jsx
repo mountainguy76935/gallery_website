@@ -2,8 +2,8 @@ import React from 'react';
 import PicOTheDay from '../components/pic_of_the_day/pic_of_the_day.component';
 
 export const DailyPicture = () => (
-    <div>
+    <React.Fragment>
         <PicOTheDay />
-    </div>
+    </React.Fragment>
 )
 

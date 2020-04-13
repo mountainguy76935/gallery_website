@@ -1,16 +1,14 @@
 .cardback {
-    height: 450px;
-    margin: center;
-    flex-direction: column;
-    background-image: linear-gradient(to bottom, #3c7fa5, white);
-    border-radius: 5px;
-    padding: 45px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
     cursor: pointer;
-    -moz-osx-font-smoothing: grayscale;
-    backface-visibility: hidden;
-    transform: translateZ(0);
-    transition: transform 0.25s ease-out;
+    transition-duration: 1.5s;
     background-size: cover;
+    cursor: pointer;
+    position: relative;
+    z-index: 20;
+    backface-visibility: hidden;
 }
 
 .text{
@@ -23,17 +21,33 @@
     transform: scale(1.05);
 }
 
-.cardLink {
-    color: black;
+a.backlink {
+    color: white;
     text-decoration: none;
     transform: cubic-bezier(.17,.67,.83,.67);
     transition-duration: 1.5s;
-    font-size: 40px;
+    font-size: 20px;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: bold;
+    top: 35%;
+    left: 30%;
+    position: absolute;
 }
 
-.cardLink:hover{
-    font-family: 'Open Sans Condensed', sans-serif;
+.backlink {
     color: white;
+    text-decoration: none;
+    transform: cubic-bezier(.17,.67,.83,.67);
+    transition-duration: 1.5s;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    top: 35%;
+    left: 30%;
+    position: absolute;
+}
+
+a.backlink:hover{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: black;
 }

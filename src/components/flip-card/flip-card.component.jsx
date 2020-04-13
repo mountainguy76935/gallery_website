@@ -13,21 +13,17 @@ render() {
       flipOnClick={true}
       flipDirection="horizontal"
       ref={(r) => this.flippy = r}
-      style={{
-        paddingBottom: '50px',
-        height: '0%'
-      }}
     >
       <FrontSide 
+      style={{
+        backgroundImage: this.props.picture
+      }}
       >
         <CardFront picture={this.props.picture}/>
       </FrontSide>
       <BackSide 
-        style={{
-          padding: '0em'
-        }}
       >
-        <CardBack picture={this.props.picture}/>
+        <CardBack picture={this.props.picture} {...this.props}/>
       </BackSide>
     </Flippy>
     )

@@ -19,7 +19,6 @@ class PicOTheDay extends React.Component {
             .then(data => {
                 this.setState({
                     date: data['date'],
-                    hdsource: data['hdurl'],
                     source: data['url'],
                     title: data['title'],
                     type: data['media_type'],
@@ -29,8 +28,8 @@ class PicOTheDay extends React.Component {
         };
 
     render() {
-        const { date, hdsource, source, title, type, explanation } = this.state;
-        const sources = hdsource || source;
+        const { date, source, title, type, explanation } = this.state;
+        const sources = source;
         const dates = () => {
             let result = new Date().getMonth();
             switch(result) {

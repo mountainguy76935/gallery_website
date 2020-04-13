@@ -4,15 +4,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('../src/pictures/leaves.png');
-  background-attachment: fixed;
+  color: white;
+  background-color: black;
+  margin: 0px;
+  height: 100%;
+  width: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
-
-html {
-  overflow-y: scroll;
 }
