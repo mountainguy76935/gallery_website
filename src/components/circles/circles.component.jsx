@@ -17,11 +17,13 @@ export const Circles = (props) => {
             onMouseEnter={handleHover}
             >
             {active ? 
-            <FlipCard 
-            key = {props.picture.id} 
-            picture = {props.picture}
-            {...props}
-            /> :
+            <React.Fragment>
+                <FlipCard 
+                key = {props.picture.id} 
+                picture = {props.picture}
+                {...props}
+                /> 
+            </React.Fragment>  :
             <div 
                 className='balls' 
                 style={{backgroundColor: props.color}}></div>    

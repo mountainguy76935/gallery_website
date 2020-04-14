@@ -13,6 +13,28 @@
     height: 812px;
     width: 375px;
   }
+
+  .back_img{
+    width: 1200px;
+    height: 400px;
+    margin-top: 0%;
+    position: absolute;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, black, transparent);
+    z-index: 20;
+  }
+
+  .back_img.active{
+    width: 1200px;
+    height: 400px;
+    margin-top: -800px;
+    transition-duration: 1.5s;
+    position: absolute;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, black, transparent);
+    opacity: 0;
+    z-index: 20;
+  }
 }
 
 @media screen and (min-width: 400px) {
@@ -128,7 +150,28 @@
     overflow: hidden;
   }
 
-.stripea{
+  .back_img{
+    width: 1200px;
+    height: 400px;
+    margin-top: 0%;
+    position: absolute;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, black, transparent);
+    z-index: 20;
+  }
+
+  .back_img.active{
+    width: 1200px;
+    height: 400px;
+    margin-top: -50%;
+    transition-duration: 1.5s;
+    position: absolute;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, black, transparent);
+    z-index: 20;
+  }
+
+.stripes{
     height: 10px;
     width: 80px;
     border-radius: 30px;
@@ -140,67 +183,8 @@
     background-color: #EFC413;
     z-index: 10;
     position: absolute;
-  }
-  
-.stripeb{
-    animation: heightChange ease-in 1;
-    animation-fill-mode:forwards;
-    animation-duration:.7s;
-    left: 80px;
-    height: 10px;
-    width: 80px;
-    border-radius: 30px;
-    position: absolute;
-    opacity: 1;
-    background-color: 	#E99A17;
-    z-index: 11;
-    position: absolute;
-  }
-  
-  .stripec{
-    animation: heightChange ease-in 1;
-    animation-fill-mode:forwards;
-    animation-duration:.7s;
-    left: 160px;
-    height: 10px;
-    width: 80px;
-    border-radius: 30px;
-    position: absolute;
-    opacity: 1;
-    background-color: #D45717;
-    z-index: 12;
-    position: absolute;
-  }
-  
-  .striped{
-    animation: heightChange ease-in 1;
-    animation-fill-mode:forwards;
-    animation-duration:.7s;
-    left: 240px;
-    height: 10px;
-    width: 80px;
-    border-radius: 30px;
-    position: absolute;
-    opacity: 1;
-    background-color: 	#E33E32;
-    z-index: 13;
-    position: absolute;
-  }
-  
-  .stripee{
-    animation: heightChange ease-in 1;
-    animation-fill-mode:forwards;
-    animation-duration:.7s;
-    left: 320px;
-    height: 10px;
-    width: 80px;
-    border-radius: 30px;
-    position: absolute;
-    opacity: 1;
-    background-color: #CB303E;
-    z-index: 14;
-    position: absolute;
-  }
+    transition: background-color 1.5s ease-in;
+}
 
   .stripe_black_left{
     width: 20%;

@@ -2,13 +2,18 @@ import React from 'react';
 import './stripe.styles.css'
 
 export const Stripe = (props) => {
-    const classes = ['a', 'b', 'c', 'd', 'e'];
-    let shadesa = !props.mainColor ? 'linear-gradient(to top, rgba(255,0,0,0), black)' : '';
-    let shades1 = !props.mainColor ? 'linear-gradient(to top, black, rgba(255,0,0,0))' : '';
+    const colors = ['#EFC413', '#E99A17', '#D45717', '#E33E32', '#CB303E'];
     return (
         <div className="whole">
+            <div className={props.mainColor ? "back_img active" : "back_img"}></div>
             <div className='stripe'> 
-                {classes.map(a => <div style={{backgroundImage: shadesa}} className={'stripe'+a}></div>)}
+                {colors.map((a, i) => <div 
+                                    style={{
+                                        left: `${80*i}px`,
+                                        backgroundColor: `${a}`
+                                    }} 
+                                    className={'stripes'}></div>
+                                )}
             </div>
             <div className="animation_box">
                 <div 
@@ -16,7 +21,7 @@ export const Stripe = (props) => {
                     style={{
                         backgroundColor: props.mainColor ? props.mainColor : 'black'
                     }}></div>
-                {classes.map((a,i) => <div style={{backgroundImage: shades1}} className={'stripe'+(i+1)}></div>)}
+                {colors.map((a,i) => <div className={'stripe'+(i+1)}></div>)}
                 <div 
                     className="stripe_black_right" 
                     style={{
