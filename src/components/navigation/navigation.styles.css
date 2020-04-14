@@ -1,82 +1,28 @@
-.line{
-    border-radius: 10px;
-    margin-top: 0px;
-    width: 30px;
-    height: 5px;
-    background-color: #8fb0a9;
-    transition: .3s;
-    position: relative;
-    z-index: 10;
-    border: solid grey 1px;
-}
-
-.line1{
-    position: relative;
-    border-radius: 50px;
-    margin-top: 0px;
-    width: 25px;
-    height: 25px;
-    background-color: #EFC413;
-    transition: .5s;
-    z-index: 10;
-    cursor: pointer;
-    border: solid grey 1px;
-}
-
-.line2{
-    border-radius: 10px;
-    margin-top: 5px;
-    width: 30px;
-    height: 5px;
-    background-color: #8fb0a9;
-    transition: .3s;
-    position: relative;
-    z-index: 0;
-    border: solid grey 1px;
-}
-
 .row{
     padding-top: 10px;
     margin-top: -10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    font-size: 30px;
     position: fixed;
     width: 100%;
-    text-align: center;
-    background-color: transparent;
     z-index: 10;
-    color: white;
-    text-decoration: none;
     font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: lighter;
-    transition: .2s;
+    transition: .3s;
 }
 
 .row1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-top: -15px;
     margin-left: -70px;
-    font-size: 0px;
     position: fixed;
     width: 0%;
     height: 0%;
-    background-color: transparent;
     z-index: 0;
-    color: white;
-    text-decoration: none;
     font-weight: lighter;
     opacity: 0;
-    transition: .2s;
+    transition: .3s;
     font-family: 'Open Sans Condensed', sans-serif;
-}
-
-.block{
-    position: fixed;
-    z-index: 11;
-    animation-duration: 1.5s;
-    animation-fill-mode: forwards;
-    padding: 1%;
-    cursor: pointer;
 }
   
 
@@ -89,16 +35,14 @@
     transform: scale(1.3);
 }
 
+.linkClass.active{
+    font-size: 10px;
+    transition-duration: .3s
+}
+
 .linkClass{
     text-decoration: none;
     color: white;
-    font-size: 7vw;
-}
-
-@media (min-width: 500px) {
-    .linkClass{
-        text-decoration: none;
-        color: white;
-        font-size: 40px;
-    }
+    font-size: 40px;
+    transition-duration: .3s
 }
