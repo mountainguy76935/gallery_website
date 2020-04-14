@@ -49,9 +49,9 @@ export class Navigation extends React.Component{
                                     'linkClass' : 
                                     'linkClass active'
                                 } 
-                                to={a.title} 
+                                to={a.path} 
                                 onClick={
-                                    this.state.toggled ? 
+                                    !this.state.toggled ? 
                                     (event) => event.preventDefault() : 
                                     null
                                 }>
