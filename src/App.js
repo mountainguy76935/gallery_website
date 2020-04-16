@@ -18,7 +18,7 @@ const App = () => {
         <div className='App' style={{backgroundColor: color ? color : 'black'}}>
           <Navigation/>
           <Route exact path='/' render={() => <MainPage mainColor={color} handleChange={changeColor}/>} />
-          <Route exact path='/about' component = { About } />
+          <Route exact path='/about' render={() => <About color={color}/>} />
           <Route exact path='/daily_pic' component = { DailyPicture } />
           <Route exact path='/calculator' component = { CalcApp } />
         </div>
