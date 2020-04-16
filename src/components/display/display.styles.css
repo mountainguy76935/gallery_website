@@ -4,9 +4,7 @@
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 1;
-    width: 100%;
     height: 40px;
     overflow: hidden;
     text-align: right;
-    color: white;
 }

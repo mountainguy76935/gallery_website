@@ -1,52 +1,41 @@
 import React from 'react';
 import './button.styles.css'
 
-export class CalcButton extends React.Component{
-    constructor() {
-        super();
-        this.state={
-            check: false
-        }
+export const CalcButton= (props) => {
+    const [check, setCheck] = React.useState(false)
+
+    const handleHover = () => {
+        setCheck(true)
     }
 
-    handleHover = () => {
-        this.setState({
-            check: true
-        })
+    const handleExit = () => {
+        setCheck(false)
     }
 
-    handleExit = () => {
-        this.setState({
-            check: false
-        })
-    }
-
-    inputCalc = (value) => {
+    const inputCalc = (value) => {
         let regEx = /\/|\+|-|\*/g;
         if (regEx.test(value)) {
-            this.props.handleOp(` ${value} `)
+            props.handleOp(` ${value} `)
         } else if (parseInt(value) < 10 || parseInt(value) >= 0 || value === '.' || value === '=') {
-            this.props.handleClick(value)
+            props.handleClick(value)
         } else if (value === 'AC') {
-            this.props.handleClear()
+            props.handleClear()
         } else if (value === '=') {
-            this.props.handleSolve()
+            props.handleSolve()
         }
     }
 
-    render() {
         return(
             <div 
-                onClick={() => this.inputCalc(this.props.value)} 
-                onMouseOver = {this.handleHover}
-                onMouseOut = {this.handleExit}
+                onClick={() => inputCalc(props.value)} 
+                onMouseOver = {handleHover}
+                onMouseOut = {handleExit}
                 className = {
-                    this.props.active || this.state.check? 
-                    `buttons active ${this.props.name}` : 
-                    `buttons ${this.props.name}`
+                    props.active || check ? 
+                    `buttons active ${props.name}` : 
+                    `buttons ${props.name}`
                 }>
-                {this.props.value}
+                {props.value}
             </div>
         )
-    }
 }

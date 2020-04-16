@@ -3,12 +3,9 @@ import './navigation.styles.css';
 import { Link } from 'react-router-dom';
 import { Hamburger } from '../hamburger/hamburger.component'
 
-export class Navigation extends React.Component{
-    constructor() {
-        super();
-        this.state = {
-            toggled: false,
-            pages: [
+export const Navigation = (props) => {
+    const [toggled, setToggled] = React.useState(false)
+    const pages = [
                 {
                     title: 'HOME',
                     path: '/'
@@ -16,51 +13,42 @@ export class Navigation extends React.Component{
                 {
                     title: 'ABOUT',
                     path: '/about'
-                },
-                {
-                    title: 'NASA PIC!',
-                    path: '/daily_pic'
                 }
             ]
-        }
+
+    const handleClick = () => {
+          setToggled(!toggled)
     }
 
-    handleClick = () => {
-          this.setState({
-              toggled: this.state.toggled === false ? true : false
-          })
-      }
-
-    render() {
-    let row = this.state.toggled === true ? 'row' : 'row1';
-    return  (
+    let row = toggled ? 'row' : 'row1';
+    return (
         <React.Fragment>
             <Hamburger 
-                handleClick={this.handleClick} 
-                toggled={this.state.toggled}
+                handleClick={handleClick} 
+                toggled={toggled}
             />
-            <div className = {row}  name="head" > 
-                {this.state.pages.map(a => {
-                    return (
-                        <span className="hov">
-                            <Link 
-                                className={
-                                    this.state.toggled ? 
-                                    'linkClass' : 
-                                    'linkClass active'
-                                } 
-                                to={a.path} 
-                                onClick={
-                                    !this.state.toggled ? 
-                                    (event) => event.preventDefault() : 
-                                    null
-                                }>
-                                {a.title}
-                            </Link>
-                        </span>
-                    )
-                })}
+            <div className = {row}> 
+            {pages.map(a => {
+                return (
+                    <span className="hov">
+                        <Link 
+                            className={
+                                toggled ? 
+                                'linkClass' : 
+                                'linkClass active'
+                            } 
+                            to={a.path} 
+                            onClick={
+                                !toggled ? 
+                                (event) => event.preventDefault() : 
+                                null
+                            }>
+                            {a.title}
+                        </Link>
+                    </span>
+                )
+            })}
             </div>
         </React.Fragment>
-    )}
+    )
 }

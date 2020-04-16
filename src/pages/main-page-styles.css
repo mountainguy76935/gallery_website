@@ -25,3 +25,15 @@
     }
 }
 
+.captions{
+    background-color: transparent;
+    color: black;
+    z-index: 30;
+    position: absolute;
+    left: 48%;
+    top: 70%;
+    transform: translate(-48%, -60%);
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    opacity: 1
+}

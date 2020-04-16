@@ -8,31 +8,21 @@ import { CalcApp } from './pages/calculator-page.component'
 import './App.css';
 import './index.css';
 
-class App extends React.Component {
-  constructor() {
-    super();
-    this.state={
-      color: ''
-    }
-  }
+const App = () => {
+  const [color, setColor] = React.useState('')
 
-  setColor = (val) => {
-    this.setState({
-      color: val
-    })
+  const changeColor = (val) => {
+    setColor(val)
   }
-
-  render() {
     return (
-        <div className='App' style={{backgroundColor: this.state.color ? this.state.color : 'black'}}>
+        <div className='App' style={{backgroundColor: color ? color : 'black'}}>
           <Navigation/>
-          <Route exact path='/' render={() => <MainPage mainColor={this.state.color} handleChange={this.setColor}/>} />
+          <Route exact path='/' render={() => <MainPage mainColor={color} handleChange={changeColor}/>} />
           <Route exact path='/about' component = { About } />
           <Route exact path='/daily_pic' component = { DailyPicture } />
           <Route exact path='/calculator' component = { CalcApp } />
         </div>
     );
-  }
 }
 
 export default App;

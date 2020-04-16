@@ -29,8 +29,7 @@
     animation-fill-mode:forwards;
     animation-duration:.1s;
     position: absolute;
-    left: 45%;
-    transform: translate(-60%, -50%);
+    transform: translate(-55%, -50%);
     z-index: 20;
     opacity: 0;
   }

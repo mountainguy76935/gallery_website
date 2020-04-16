@@ -1,5 +1,4 @@
 import React from "react";
-import './card-front.styles.css';
 
 export const CardFront = (props) => (
     <React.Fragment>
@@ -9,6 +8,9 @@ export const CardFront = (props) => (
             src={props.picture.src} 
             width="100px" 
             height="100px"
+            style={{
+                borderRadius: '50%'
+            }}
         />
     </React.Fragment>
 )

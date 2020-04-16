@@ -6,7 +6,7 @@ export const CardList = props => {
     const left = props.picture.slice(0, 4);
     const right = props.picture.slice(4);
     return(
-        <div className="both">
+        <React.Fragment>
             <div className = "right">
             {right.map(picture => (
                 <FlipCard 
@@ -21,6 +21,6 @@ export const CardList = props => {
                     picture = {picture}
                 />))}
             </div>
-        </div>
+        </React.Fragment>
     )
 }

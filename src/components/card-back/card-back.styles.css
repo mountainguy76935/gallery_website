@@ -9,6 +9,7 @@
     position: relative;
     z-index: 20;
     backface-visibility: hidden;
+    overflow: hidden;
 }
 
 .text{
@@ -32,22 +33,19 @@ a.backlink {
     top: 35%;
     left: 30%;
     position: absolute;
-}
-
-.backlink {
-    color: white;
-    text-decoration: none;
-    transform: cubic-bezier(.17,.67,.83,.67);
-    transition-duration: 1.5s;
-    font-size: 20px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: bold;
-    top: 35%;
-    left: 30%;
-    position: absolute;
+    z-index: 25
 }
 
 a.backlink:hover{
     font-family: 'Open Sans Condensed', sans-serif;
     color: black;
+}
+
+.texture{
+    background: linear-gradient(to bottom, white, transparent);
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: -40%;
+    z-index: 23
 }

@@ -3,10 +3,10 @@ import './circles.styles.css';
 import { FlipCard } from '../flip-card/flip-card.component'
 
 export const Circles = (props) => {
-
     const [active, setActive] = React.useState(false)
 
     const handleHover =() => {
+        props.handleHover(props.picture)
         setActive(true);
         props.handleChange(props.color)
     }
@@ -15,7 +15,7 @@ export const Circles = (props) => {
         <div 
             className='circles'
             onMouseEnter={handleHover}
-            >
+        >
             {active ? 
             <React.Fragment>
                 <FlipCard 

@@ -19,7 +19,7 @@ render() {
         backgroundImage: this.props.picture
       }}
       >
-        <CardFront picture={this.props.picture}/>
+        <CardFront picture={this.props.picture} />
       </FrontSide>
       <BackSide 
       >

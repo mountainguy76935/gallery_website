@@ -1,12 +1,8 @@
 import React from 'react';
 import './display.styles.css';
 
-export default class Display extends React.Component{
-    render() {
-        return(
-            <div className="display">
-                {this.props.data}
-            </div>    
-        )
-    }
-}
+export const Display = (props) => (
+    <div className="display">
+        {props.data}
+    </div>    
+)
